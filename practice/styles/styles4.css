@@ -15,5 +15,9 @@ h1:hover {
     color: black;
   }
 img {
-    width: 30%
+    width: 10%
+}
+h2 {
+    width: 15%;
+    margin: 0 auto
 }
