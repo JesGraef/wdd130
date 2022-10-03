@@ -1,0 +1,16 @@
+body {
+    background-color: pink;
+    text-align: center;
+}
+ol {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+    font-weight: bold;
+}
+h1, h2, h4, h5 {
+    color: white
+}
+h1:hover {
+    color: black;
+  }
