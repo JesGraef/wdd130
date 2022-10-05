@@ -18,11 +18,11 @@ body {
     background-color: #fcfbfb; 
 }
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color:#459b79;
 }
 nav a:hover {
-    background-color: black;
-    color: #d9c2a3;
+    background-color: #ffc02e;
+    color: black;
 }
 .home-title, h4 {
     color: black;
@@ -33,38 +33,35 @@ nav a:hover {
     text-decoration: none;
 }
 .book:hover, .join:hover {
-    background-color:rgba(20,30,13, .7);
+    background-color:#ffc02e;
     color: black;
 }
 .msg h2, .msg p {
-    color: black;
+    color: #fcfbfb;
 }
 .msg {
-    background-color:rgba(20,30,13, .7);
-}
-footer {
-    background-color: rgba(20,30,13, .7);
-    color: black;
-}
-footer a:hover {
-    color: black;
+    background-color:#459b79;
 }
 #hero-img {
     width: 100%
 }
-.icon {
+.icon, .logo {
     width: 80px;
+}
+footer {
+    background-color: #459b79;
+    color: #ffc02e;
 }
 footer a {
     text-decoration: none;
-    color: black;
+    color: #ffc02e;
 }
 footer p {
     font-size: 1.2em;
 } 
+footer a:hover {
+    color: black;
+}
 footer p a:hover {
     text-decoration: underline;
 }  
-.logo {
-    width: 80px;
-}
