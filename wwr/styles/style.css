@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Kaushan+Script&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,9 +8,22 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none; 
+    padding: 35px;
 } 
+#logo_link { 
+    padding-top: 5px;
+}
 #hero-msg h1, #hero-msg h4, .button-box, main section {
     text-align: center;
+}
+.home-title {
+    font-family: "Kaushan Script", Helvetica, sans-serif;
+    font-size: 2em;
+    color: black;
+    margin-top: 10px;
+}
+.msg h2 {
+    font-family: "Kaushan Script", Helvetica, sans-serif;
 }
 #background {
     height: 725px;
@@ -16,6 +31,10 @@ nav a {
 }
 body {
     background-color: #fcfbfb; 
+    font-family: Comfortaa, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 header {
     background-color:#459b79;
@@ -24,29 +43,55 @@ nav a:hover {
     background-color: #ffc02e;
     color: black;
 }
-.home-title, h4 {
+h1 {
+    font-family: "Kaushan Script", Helvetica, sans-serif;
+}
+h2 {
+    margin: 0;
+    font-family: "Kaushan Script", Helvetica, sans-serif;
+}
+h4 {
     color: black;
+    font-family: "Kaushan Script", Helvetica, sans-serif;
 }
 .book, .join {
     background-color: #63e2c6;
     color: black; 
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color:#ffc02e;
     color: black;
 }
-.msg h2, .msg p {
-    color: #fcfbfb;
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
+.msg h2 {
+    color: #ffc02e;
+}
+.msg p {
+    color: #ffc02e;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .msg {
     background-color:#459b79;
+    line-height: 1.5em;
+    padding: 35px;
 }
 #hero-img {
     width: 100%
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
@@ -54,6 +99,8 @@ nav a:hover {
 footer {
     background-color: #459b79;
     color: #ffc02e;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     text-decoration: none;
@@ -67,4 +114,10 @@ footer a:hover {
 }
 footer p a:hover {
     text-decoration: underline;
-}  
+} 
+footer .social img {  
+    padding-top: 15px; 
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}

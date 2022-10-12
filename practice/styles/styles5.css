@@ -1,0 +1,14 @@
+#bottom img {
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 50%;
+    border: 15px solid rgb(74, 73, 73);
+    width: 200px;
+}
+#bottom {
+    background-color: gray;
+    width: 1280px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
