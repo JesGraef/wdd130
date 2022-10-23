@@ -46,7 +46,6 @@
   background-color: green; 
   margin-top: -50px;
   margin-left: 50px;
-  z-index: 1;
 } 
 .yellow2 {
   width: 100px; 
@@ -54,7 +53,6 @@
   background-color: gold;
   margin-top: -50px;
   margin-left: 100px;
-  z-index: 2; 
 } 
 .blue2 {
   width: 100px; 
@@ -62,7 +60,6 @@
   background-color: blue; 
   margin-top: -50px;
   margin-left: 150px;
-  z-index: 3; 
 } 
 /* Activity 3 styles */ 
 .content3 {
@@ -144,7 +141,7 @@
 } 
 .yellow5 {
   width: 100%; 
-  height: auto; 
+  min-height: 180px; 
   background-color: gold; 
 } 
 .blue5 {
