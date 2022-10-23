@@ -121,7 +121,7 @@ h4 {
     color: white;
 }
 .card-img {
-    border: 10px solid rgb(228, 219, 219);
+    border: 10px solid #459b79;
     width: 100%;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
