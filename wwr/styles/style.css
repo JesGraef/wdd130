@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Kaushan+Script&display=swap');
 
-#content {
+#content, #content2 {
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -26,17 +26,17 @@ nav a:hover {
 .logo {
     width: 80px;
 }
-#hero {
+#hero, #hero-rivers {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
 }
-#hero-box {
+#hero-box, #hero-box-rivers {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
 }
-#hero-img {
+#hero-img, #hero-img-rivers {
     width: 100%
 }
 #hero-msg {
@@ -44,9 +44,17 @@ nav a:hover {
     grid-row: 1/2;
     margin-top: 100px;
 }
+#hero-msg-rivers {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 100px;
+}
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
     color: #ffc02e;
+}
+#hero-msg-rivers h4 {
+    text-align: center;
 }
 .button-box, main section {
     text-align: center;
@@ -89,6 +97,12 @@ h2 {
     margin: 0;
     font-family: "Kaushan Script", Helvetica, sans-serif;
     color: #459b79;
+}
+h3 {
+    margin: 0;
+    font-family: "Kaushan Script", Helvetica, sans-serif;
+    color: #459b79;
+    text-align: center;
 }
 h4 {
     color: black;
@@ -152,6 +166,10 @@ main section img {
 .icon {
     width: 80px;
     padding-top: 10px;
+}
+.rafting1-grid, .rafting2-grid, .rafting3-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 footer {
     background-color: #459b79;
