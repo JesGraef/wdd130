@@ -16,8 +16,8 @@ h4, h1, p {
     text-align: center;
 }
 h4 {
-    color: blue;
-    font-size: .7em;
+    color: rgb(79, 116, 201);
+    font-size: .8em;
     margin-bottom: -20px;
 }
 #main_text {
@@ -27,7 +27,7 @@ h4 {
 .bottom {
     display: grid;
     grid-template-columns: 1fr 2px 1fr 2px 1fr;
-    background-color: blue;
+    background-color: rgb(45, 68, 122);
     color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
