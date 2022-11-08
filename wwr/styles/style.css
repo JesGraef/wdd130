@@ -36,6 +36,9 @@ nav a:hover {
     grid-row: 1/3;
     z-index: -1;
 }
+#hero-box-rivers {
+    margin-top: 100px;
+}
 #hero-img, #hero-img-rivers {
     width: 100%
 }
@@ -55,6 +58,9 @@ nav a:hover {
 }
 #hero-msg-rivers h4 {
     text-align: center;
+}
+.rivers-img {
+    width: 100%;
 }
 .button-box, main section {
     text-align: center;
@@ -99,7 +105,7 @@ h2 {
     color: #459b79;
 }
 h3 {
-    margin: 0;
+    margin: 35px 0;
     font-family: "Kaushan Script", Helvetica, sans-serif;
     color: #459b79;
     text-align: center;
@@ -170,6 +176,9 @@ main section img {
 .rafting1-grid, .rafting2-grid, .rafting3-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: left;
+    color: #459b79;
 }
 footer {
     background-color: #459b79;
@@ -179,6 +188,9 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.footer-rivers {
+    margin-top: 50px;
 }
 footer a {
     text-decoration: none;
