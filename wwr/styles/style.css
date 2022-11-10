@@ -105,7 +105,7 @@ h2 {
     color: #459b79;
 }
 h3 {
-    margin: 35px 0;
+    margin: 50px 0;
     font-family: "Kaushan Script", Helvetica, sans-serif;
     color: #459b79;
     text-align: center;
@@ -179,6 +179,10 @@ main section img {
     align-items: center;
     text-align: left;
     color: #459b79;
+    line-height: 150%;
+    padding-left: 30px;
+    padding-right: 30px;
+    grid-gap: 15px;
 }
 footer {
     background-color: #459b79;
