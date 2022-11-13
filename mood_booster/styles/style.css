@@ -124,7 +124,7 @@ h4 {
     border-radius: 5px;
 }
 .join {
-    background-color: #ffff00;
+    background-color: #00ff00;
     color: black; 
     text-decoration: none;
     font-size: 18px;
@@ -162,7 +162,7 @@ main section img {
     padding-bottom: 15px;
 }
 .msg {
-    background-color:#00ff00;
+    background-color:#ffff00;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
