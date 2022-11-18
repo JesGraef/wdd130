@@ -91,7 +91,16 @@ header {
     margin: 0 auto;
 }
 .meme1, .meme2, .meme3, .meme4, .meme5, .meme6 {
-    max-width: 900px;
+    margin-bottom: 150px;
+}
+.meme1 {
+    width: 80%;
+}
+.meme2, .meme4, .meme6 {
+    max-width: 600px;
+}
+.meme3 {
+    max-width: 1000px;
 }
 #vid1, #vid2, #vid3 {
     display: grid;
@@ -160,6 +169,11 @@ h4 {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+}
+#para {
+    line-height: 1.5;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .book:hover {
     background-color:#00ff00;
