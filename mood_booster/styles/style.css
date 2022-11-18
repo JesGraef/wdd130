@@ -266,6 +266,8 @@ iframe {
 }
 .music1 p, .music2 p, .music3 p {
     line-height: 1.5;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 footer {
     background-color: #ffff00;
