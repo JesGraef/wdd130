@@ -89,9 +89,15 @@ header {
 #meme-grid {
     width: 100%;
     margin: 0 auto;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #ffff00;
+
 }
 .meme1, .meme2, .meme3, .meme4, .meme5, .meme6 {
     margin-bottom: 150px;
+    
 }
 .meme1 {
     width: 80%;
