@@ -109,6 +109,10 @@ header {
     grid-template-columns: 1fr 1fr;
     margin-top: 150px;  
 }
+.classname {
+    width: 560px;
+    height: 315px;
+}
 .title1 {
     grid-column: 1/2;
     grid-row: 1/2;
