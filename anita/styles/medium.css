@@ -1,0 +1,95 @@
+@media only screen and (min-width: 32.5em) {
+	/* Home */
+	.home-title {
+        font-size: 5em;
+    }
+	.footers {
+		display: flex;
+		/* justify-content: space-evenly; */
+		/* align-items: center; */
+		text-align: left;
+		padding: 20px;
+	}
+	.cali-grid {
+		display: flex; 
+	}
+	.cali-card1, .cali-card2, .cali-card3 {
+		width: 30%;
+	}
+	.soc img {
+		width: 2em;
+	}
+
+    #hero1 {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        /* margin-top: -50px; */
+    }
+    #hero-box {
+        grid-column: 1/4;
+        grid-row: 1/3;
+        /* z-index: -1; */
+    }
+	
+
+	/* Hamburger */
+	.navigation, .social img, #display {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		/* flex: 1 1 100%; */
+	}
+	.navigation a {
+		text-align: center;
+		/* padding: 0.2rem; */
+	}
+	#menu {
+		display: none;
+	}
+
+	/* Weather */
+	
+	.forecast {
+		display: flex;
+	}
+	#weather, #weather1, #weather2, #weather3 { 
+		width: 100%;
+	}
+	
+	/* Drink */
+	.home-grid {
+		display: grid;
+		grid-template-columns: repeat(10, 1fr);
+	}
+
+	.msg {
+		width: 100%;
+		grid-column: 6/10;
+		grid-row: 6/7;
+    }
+	.drink {
+		width: 100%;
+		grid-column: 2/7;
+		grid-row: 5/8;
+	}
+	#card {
+		background-color: #459b79;
+	}
+	
+	/* About Us */
+	.about p {
+        margin-left: 100px;
+        text-align: left;
+    }
+    .about img { 
+        margin: 30px;
+    }
+	.maps {
+		display: flex;
+	}
+	.mapPic {
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+}

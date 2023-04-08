@@ -1,0 +1,28 @@
+@media only screen and (min-width: 64rem) {
+    /* Home Page */
+    .home-title {
+        font-size: 8em;
+    }
+    .soc img {
+        width: 3em;
+    }
+    /* About Us Page */
+    .about {
+        display: grid;
+        grid-template-columns: 50% 40%;
+        margin: 30px;
+		margin-left: 200px;
+    }
+	.about p {
+        margin-top: 100px;
+		line-height: 30px;
+		font-size: larger;
+    } 
+    #hover1 {
+        margin-top: 80px;
+    }
+    .about img {
+        margin-top: 50px;
+    }
+   
+} 
