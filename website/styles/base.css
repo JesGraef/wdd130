@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&family=Rubik+Pixels&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: "Inknut Antiqua", sans-serif;
+    /* background-color: black; */
+}
+
+/* Mobile View ***************/
+/* Hamburger */
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	background-color: #eee;
+	color: #000;
+}
+
+#menu::before {
+	content: "≡";
+}
+
+nav {
+	/* background-color: tomato; */
+    /* background-color: rgb(0, 0, 0); */
+    background-image: linear-gradient(
+        to bottom,
+        rgb(0, 0, 0),
+        rgba(238, 82, 39, 0.997));
+        /* rgb(0, 0, 0)); */
+}
+footer {
+    color: white;
+    background-image: linear-gradient(
+        to bottom,
+        rgb(0, 0, 0),
+        rgba(238, 82, 39, 0.997),
+        rgb(0, 0, 0));
+}
+.navigation {
+	list-style: none;
+	margin: 0 auto;
+	/* max-width: 760px; */
+}
+
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover {
+	color: white;
+	background-color:black;
+    /* background-color: rgb(163, 252, 9); */
+}
+/* .active {
+    background-color: black;
+} */
+.show li {
+	display: block;
+}
+
+#menu.show::before {
+	content: "X";
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+}
+.hero-img {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    /* z-index: -1; */
+}
+.hero-msg {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: white;
+    text-align: center;
+    font-size: 5em;
+    /* font-family: "Rubik Pixels"; */
+    /* margin-top: 100px; */
+}
+
+/* .main {
+    background-color: black;
+} */
+.cali-grid {
+    display: block;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+.cali-card1, .cali-card2, .cali-card3 {
+    border-radius: 30px;
+    border: 3px solid rgb(150, 150, 150);
+    margin: 20px;
+}
+.cali-card1:hover, .cali-card2:hover, .cali-card3:hover {
+    transform: scale(1.03);
+    transition: all 1s ease;
+    box-shadow: 0 0 50px rgba(207, 141, 62, 0.793);
+}
+
+footer {
+	font-size: 1.4em;
+	padding: 10px;
+	text-align: center;
+}
+p.footer {
+    font-size: .8em;
+}
+.footers {
+    display: block;
+	padding: 20px;
+    font-size: .8em;
+}
+.footer {
+	text-align: center;
+    background-color: white;
+	color: black;
+	width: 98%;
+	margin: 0 auto;
+}

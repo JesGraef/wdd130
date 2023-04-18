@@ -1,0 +1,29 @@
+@media only screen and (min-width: 40em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	#menu {
+		display: none;
+	}
+    .cali-grid {
+		display: flex; 
+	}
+	.cali-card1, .cali-card2, .cali-card3 {
+		width: 30%;
+	}
+
+    .footers {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		text-align: left;
+		padding: 20px;
+	}
+}
